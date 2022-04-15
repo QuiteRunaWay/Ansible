@@ -30,7 +30,10 @@
 #### Ответ:
 
 7. Как выглядит команда запуска `playbook`, если переменные зашифрованы?
-#### Ответ:
+#### Ответ: команда выглядит вот так: ansible-playbook site.yml -i inventory/prod.yml --ask-vault-pass
+
+![image](https://user-images.githubusercontent.com/92969676/163551317-99993b02-4817-4669-8e2f-55c845b091a0.png)
+
 
 8. Как называется модуль подключения к host на windows?
 #### Ответ:
