@@ -12,10 +12,19 @@
 
 
 4. Какой командой можно зашифровать файл?
-#### Ответ:
+#### Ответ: например, вот так ansible-vault encrypt group_vars/deb/examp.yml
+
+![image](https://user-images.githubusercontent.com/92969676/163550197-62efc03e-1920-4d00-ab3f-03bfe4a30b2f.png)
+
+![image](https://user-images.githubusercontent.com/92969676/163550303-b28a04bf-a9bd-44f7-9ea8-d4f39eca7ba5.png)
+
 
 5. Какой командой можно расшифровать файл?
-#### Ответ:
+#### Ответ: например вот так: ansible-vault decrypt group_vars/deb/examp.yml
+
+![image](https://user-images.githubusercontent.com/92969676/163550419-e6a878ff-dd88-49eb-b9fe-f699aeaa1180.png)
+
+![image](https://user-images.githubusercontent.com/92969676/163550450-05d03a9f-64e1-4a25-bc4e-fa3273e721d8.png)
 
 6. Можно ли посмотреть содержимое зашифрованного файла без команды расшифровки файла? Если можно, то как?
 #### Ответ:
